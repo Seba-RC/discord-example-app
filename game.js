@@ -87,6 +87,7 @@ const RPSChoices = {
     paper: 'eats',
     computer: 'destroys',
     scissors: 'destroys',
+    rock: 'destroys',
   },
 };
 
