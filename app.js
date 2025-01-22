@@ -42,7 +42,7 @@ app.post('/interactions', verifyKeyMiddleware(process.env.PUBLIC_KEY), async fun
     const { name } = data;
 
     // "test" command
-    if (name === 'testt') {
+    if (name === 'test') {
       // Send a message into the channel where command was triggered from
       return res.send({
         type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
@@ -54,7 +54,7 @@ app.post('/interactions', verifyKeyMiddleware(process.env.PUBLIC_KEY), async fun
     }
 
     // "challenge" command
-    if (name === 'test' && id) {
+    if (name === 'challenge' && id) {
       // Interaction context
       const context = req.body.context;
       // User ID is in user field for (G)DMs, and member for servers
