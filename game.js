@@ -79,10 +79,11 @@ const RPSChoices = {
     rock: 'covers',
   },
   shark: {
-    description: 'the best option',
-    virus: 'eats',
+    description: 'shark',
+    virus: 'survives',
     cowboy: 'eats',
     rock: 'eats',
+    wumpus: 'eats',
   },
 };
 
