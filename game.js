@@ -86,6 +86,7 @@ const RPSChoices = {
     wumpus: 'eats',
     paper: 'eats',
     computer: 'destroys',
+    scissors: 'destroys',
   },
 };
 
