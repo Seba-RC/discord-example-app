@@ -84,6 +84,8 @@ const RPSChoices = {
     cowboy: 'eats',
     rock: 'eats',
     wumpus: 'eats',
+    paper: 'eats',
+    computer: 'destroys',
   },
 };
 
