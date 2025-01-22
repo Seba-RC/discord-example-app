@@ -78,6 +78,12 @@ const RPSChoices = {
     cowboy: 'gives papercut to',
     rock: 'covers',
   },
+  shark: {
+    description: 'the best option',
+    virus: 'eats',
+    cowboy: 'eats',
+    rock: 'eats',
+  },
 };
 
 export function getRPSChoices() {

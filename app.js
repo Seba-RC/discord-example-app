@@ -3,7 +3,7 @@ import express from 'express';
 import {
   InteractionType,
   InteractionResponseType,
-
+  InteractionResponseFlags,
   MessageComponentTypes,
   ButtonStyleTypes,
   verifyKeyMiddleware,
